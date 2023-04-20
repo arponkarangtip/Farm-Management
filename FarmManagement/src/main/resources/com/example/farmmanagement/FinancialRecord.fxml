@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="569.0" prefWidth="768.0" style="-fx-background-color: Cyan Swatch;" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.farmmanagement.FinancialRecord">
+   <children>
+      <Label alignment="CENTER" layoutX="1.0" layoutY="-3.0" prefHeight="82.0" prefWidth="768.0" style="-fx-background-color: pink;" text="Financial Record">
+         <font>
+            <Font size="53.0" />
+         </font>
+      </Label>
+      <Label layoutX="32.0" layoutY="102.0" prefHeight="28.0" prefWidth="78.0" text="Food Cost" />
+      <Label layoutX="32.0" layoutY="147.0" prefHeight="28.0" prefWidth="68.0" text="Staff Salary" />
+      <Label layoutX="32.0" layoutY="206.0" text="Current Bill" />
+      <Label layoutX="32.0" layoutY="258.0" text="Water Bill" />
+      <Label layoutX="17.0" layoutY="321.0" text="Vaccination Bill" />
+      <Button fx:id="saveBT" layoutX="144.0" layoutY="381.0" mnemonicParsing="false" onMouseClicked="#saveBT" style="-fx-background-color: orange;" text="Save" />
+      <TextField fx:id="foodTF" layoutX="110.0" layoutY="104.0" />
+      <TextField fx:id="staffTF" layoutX="110.0" layoutY="161.0" />
+      <TextField fx:id="currentTF" layoutX="110.0" layoutY="202.0" />
+      <TextField fx:id="waterTF" layoutX="110.0" layoutY="254.0" />
+      <TextField fx:id="vaccinationTF" layoutX="110.0" layoutY="317.0" />
+      <Label layoutX="466.0" layoutY="93.0" style="-fx-background-color: red;" text="Graph">
+         <font>
+            <Font size="31.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>

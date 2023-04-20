@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="609.0" prefWidth="746.0" style="-fx-background-color: yellow;" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.farmmanagement.HelloController">
+   <children>
+      <Label alignment="CENTER" layoutX="3.0" layoutY="7.0" prefHeight="80.0" prefWidth="740.0" style="-fx-background-color: green;" text="CATTLE  INFORMATION">
+         <font>
+            <Font size="68.0" />
+         </font>
+      </Label>
+      <Label alignment="CENTER" layoutX="91.0" layoutY="155.0" prefHeight="39.0" prefWidth="564.0" style="-fx-background-color: green;" text="SEARCH THE CATTLE INFORMATION">
+         <font>
+            <Font size="30.0" />
+         </font>
+      </Label>
+      <Label alignment="CENTER" layoutX="163.0" layoutY="223.0" prefHeight="27.0" prefWidth="124.0" text="Cattle Code">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+      <Label alignment="CENTER" layoutX="107.0" layoutY="350.0" prefHeight="45.0" prefWidth="548.0" style="-fx-background-color: green;" text="RESISTER YOUR CATTLE INFORMATION">
+         <font>
+            <Font size="30.0" />
+         </font>
+      </Label>
+      <Button fx:id="csubBT" layoutX="287.0" layoutY="267.0" mnemonicParsing="false" onMouseClicked="#csubBT" style="-fx-background-color: orange;" text="Submit" />
+      <TextField fx:id="ccodeTF" layoutX="287.0" layoutY="224.0" prefHeight="25.0" prefWidth="202.0" promptText="Entre your Cattle Code" />
+      <Button fx:id="regBT" layoutX="556.0" layoutY="490.0" mnemonicParsing="false" onMouseClicked="#regBT" prefHeight="45.0" prefWidth="84.0" style="-fx-background-color: orange;" text="Registered" />
+      <Label alignment="CENTER" layoutX="314.0" layoutY="400.0" prefHeight="27.0" prefWidth="149.0" text=" Entre Cattle Picture">
+         <font>
+            <Font size="17.0" />
+         </font>
+      </Label>
+      <Label layoutX="37.0" layoutY="412.0" prefHeight="27.0" prefWidth="46.0" text="AGE">
+         <font>
+            <Font size="15.0" />
+         </font>
+      </Label>
+      <Label layoutX="33.0" layoutY="459.0" prefHeight="17.0" prefWidth="54.0" text="HEIGHT">
+         <font>
+            <Font size="13.0" />
+         </font>
+      </Label>
+      <Label layoutX="34.0" layoutY="495.0" text="WEIGHT" />
+      <Label layoutX="37.0" layoutY="541.0" text="COLOR" />
+      <TextField fx:id="ageTF" layoutX="98.0" layoutY="413.0" promptText="Entre Cattle Age" />
+      <TextField fx:id="heightTF" layoutX="98.0" layoutY="456.0" promptText="Entre Cattle Height" />
+      <TextField fx:id="weightTF" layoutX="98.0" layoutY="491.0" promptText="Entre Cattle Weight" />
+      <TextField fx:id="colorTF" layoutX="98.0" layoutY="537.0" promptText="Entre Cattle Color" />
+   </children>
+</AnchorPane>
